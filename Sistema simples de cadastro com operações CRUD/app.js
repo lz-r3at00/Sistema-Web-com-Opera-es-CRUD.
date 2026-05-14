@@ -78,7 +78,7 @@ app.get('/lista', (req, res) => {
           <td>${person.email}</td>
           <td>${person.telefone}</td>
           <td><a href='http://localhost:3000/editar/${person.id}' class="edit" >Editar</a></td>
-          <td><form action="/deletar/${results[0].id}?_method=DELETE" method="POST"><button class="excluir" type="submit">Excluir</button></form></td>
+          <td><form action="/deletar/${person.id}?_method=DELETE" method="POST"><button class="excluir" type="submit">Excluir</button></form></td>
         </tr>`;
     });
 

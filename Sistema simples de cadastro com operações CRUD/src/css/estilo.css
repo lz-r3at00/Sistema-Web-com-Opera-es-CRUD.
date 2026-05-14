@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #4f4f4f;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    gap: 10px;
+}
+label {
+    display: block;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px ;
+    font-size: 17px;
+}
+input{
+    margin-bottom: 10px;
+}
+
+.custom-color {
+    color: rgb(255, 255, 255); /* Código hexadecimal para uma cor personalizada (Tomato) */
+}
+
+.btn-cad{
+    background-color: #4f4f4f;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 2px 8px;
+    cursor: pointer;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+.btn-cad:hover{
+    background-color: white;
+    color: #4f4f4f;
+    transition: 0.5s;
+}
+
+.btn-lista{
+    font-size: 17px;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 2px 8px;
+    transition: 0.5s;
+}
+
+.btn-lista:hover{
+    background-color: white;
+    color: #4f4f4f;
+    transition: 0.5s;
+}
